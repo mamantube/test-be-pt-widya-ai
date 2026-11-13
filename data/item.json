@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "6af70d6b333640f9a5cf56aa"
+  },
+  "name": "Laptop Lenovo Legion",
+  "description": "Ini adalah laptop Lenovo Legion Ram 64 GB dan Storage 1 TB",
+  "stock": 32,
+  "price": 25000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70d93333640f9a5cf56ab"
+  },
+  "name": "Laptop Lenovo LOQ",
+  "description": "Ini adalah laptop Lenovo LOQ Ram 64 GB dan Storage 1 TB",
+  "stock": 43,
+  "price": 15000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70dc3333640f9a5cf56ac"
+  },
+  "name": "Laptop ASUS Tuf",
+  "description": "Ini adalah laptop ASUS Tuf Ram 64 GB dan Storage 1 TB",
+  "stock": 19,
+  "price": 14000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70dde333640f9a5cf56ad"
+  },
+  "name": "Laptop ASUS ROG",
+  "description": "Ini adalah laptop ASUS ROG Ram 64 GB dan Storage 1 TB",
+  "stock": 19,
+  "price": 35000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70e2a333640f9a5cf56ae"
+  },
+  "name": "Xiaomi MI 17",
+  "description": "Ini adalah hp Xiaomi MI 17 Ram 64 GB dan Storage 512 TB",
+  "stock": 19,
+  "price": 17000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70e6c333640f9a5cf56af"
+  },
+  "name": "Xiaomi Poco X6",
+  "description": "Ini adalah hp Xiaomi Poco X6 Ram 64 GB dan Storage 512 TB",
+  "stock": 13,
+  "price": 8000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70e9a333640f9a5cf56b0"
+  },
+  "name": "Xiaomi Redmi T17",
+  "description": "Ini adalah hp Xiaomi Redmi T17 Ram 64 GB dan Storage 512 TB",
+  "stock": 9,
+  "price": 13000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70ecd333640f9a5cf56b1"
+  },
+  "name": "Iphone 17 Pro Max",
+  "description": "Ini adalah hp Iphone 17 Pro Max Ram 64 GB dan Storage 512 TB",
+  "stock": 9,
+  "price": 19000000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af70ee5333640f9a5cf56b2"
+  },
+  "name": "Iphone 18 Pro Max",
+  "description": "Ini adalah hp Iphone 18 Pro Max Ram 64 GB dan Storage 512 TB",
+  "stock": 15,
+  "price": 23000000,
+  "__v": 0,
+  "updated_at": {
+    "$date": "2026-11-13T16:09:29.948Z"
+  }
+}]

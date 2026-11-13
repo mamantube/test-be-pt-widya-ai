@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6af6df5d45a2fd155b5efcc6"
+  },
+  "full_name": "Joko Santoso",
+  "email": "joko@mail.com",
+  "password": "joko007",
+  "role": "user",
+  "created_at": {
+    "$date": "2026-11-13T09:58:53.606Z"
+  },
+  "updated_at": {
+    "$date": "2026-11-13T09:58:53.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af6f9e7c8f84195e8985391"
+  },
+  "full_name": "mamandev",
+  "email": "maman@mail.com",
+  "password": "$2b$10$C71m0zMLBuub/0nCFwOnq.ICEzLHfvqHxUH5QuwGbN8DIMD184SS6",
+  "role": "user",
+  "created_at": {
+    "$date": "2026-11-13T11:52:07.474Z"
+  },
+  "updated_at": {
+    "$date": "2026-11-13T11:52:07.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af709cfbc214b7626a2bde1"
+  },
+  "full_name": "Super Admin",
+  "email": "admin001@mail.com",
+  "password": "$2b$10$DdMEyw/i2QM2vciR6Rj8deDonnLlT8BipKQI88yWv59INUaXClGR2",
+  "role": "admin",
+  "created_at": {
+    "$date": "2026-11-13T12:59:59.501Z"
+  },
+  "updated_at": {
+    "$date": "2026-11-13T12:59:59.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af733e0972baeed0c99df01"
+  },
+  "full_name": "icha",
+  "email": "icha@mail.com",
+  "password": "$2b$10$hL28wYVcIzaXF5eWu/Ywv.JFPgW7LcajbddPt4oBKgR32ccTgdcTm",
+  "role": "user",
+  "created_at": {
+    "$date": "2026-11-13T15:59:28.219Z"
+  },
+  "updated_at": {
+    "$date": "2026-11-13T15:59:28.219Z"
+  },
+  "__v": 0
+}]

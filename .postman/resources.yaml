@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: fa3a3a4f-8688-4d0d-84e0-9439d42d8d8b
+
+localResources:
+  collections:
+    - ../data/INVENTORY-MANAGEMENT
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../data/INVENTORY-MANAGEMENT: 31838697-72a6975d-699c-4d29-a483-cdcf16a8e063
