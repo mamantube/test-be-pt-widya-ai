@@ -1,0 +1,8 @@
+export default function response(res, code, message, data, pagination) {
+    res.status(code).send({
+        code,
+        message,
+        data,
+        pagination
+    })
+}
