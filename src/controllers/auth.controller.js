@@ -1,6 +1,8 @@
 import UserModel from "../models/user.model.js";
 import * as Yup from "yup";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import { SECRET_KEY_TOKEN } from "../utils/env.js";
 
 const validationSchema = Yup.object({
     full_name: Yup.string().required("Nama lengkap harus diisi"),
@@ -22,6 +24,30 @@ export const register = async (req, res) => {
         if (error instanceof Yup.ValidationError) {
             return res.status(400).json({ errors: error.errors });
         }
+        res.status(500).json({ message: "Internal server error" });
+    }
+};
+
+export const login = async (req, res) => {
+    try {
+        const { identifier, password } = req.body;
+        const user = await UserModel.findOne({
+            $or: [{ email: identifier }, { full_name: identifier }]
+        });
+
+        if (!user) {
+            return res.status(403).json({ message: "Email atau Nama lengkap tidak ditemukan" });
+        };
+
+        const passwordMatch = bcrypt.compare(password, user.password);
+        if (!passwordMatch) {
+            return res.status(403).json({ message: "Password salah" });
+        }
+
+        const token = jwt.sign({ id: user._id.toString() }, SECRET_KEY_TOKEN, { expiresIn: "1h" });
+
+        res.status(200).json({ message: "Login berhasil", token });
+    } catch (error) {
         res.status(500).json({ message: "Internal server error" });
     }
 };
