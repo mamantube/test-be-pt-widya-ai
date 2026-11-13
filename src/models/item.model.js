@@ -12,11 +12,19 @@ const ItemSchema = new Schema(
         },
         stock: {
             type: Number,
-            required: true
+            required: true,
+            min: 0,
+            validate: { validator: Number.isInteger, message: "Stok harus bilangan bulat" }
         },
         price: {
             type: Number,
             required: true,
+            min: 0,
+        }
+    }, {
+        timestamps: {
+            createdAt: "created_at",
+            updatedAt: "updated_at"
         }
     }
 )
