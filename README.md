@@ -13,9 +13,9 @@ SECRET_KEY_TOKEN=<secret-acak-yang-panjang>
 ## Note
 
 Saya membuat create, update dan delete hanya bisa dilakukan oleh user yang memiliki role admin. saya sudah mengekspor collection user dan item di dalam folder data pada project ini. jika sudah di impor anda bisa login sebagai admin dengan memasukkan request body sebagai berikut:
-    "full_name": "Super Admin",
-    "email": "admin001@mail.com",
+    "identifier": "Super Admin",
     "password": "admin001"
+untuk identifier bisa menggunakan email atau full_name dari user yang ingin login, berikut email dari admin: admin001@mail.com
 
 saya juga sudah mengeksport collection postman pada direktory data/INVENTORY MANAGEMENT
 
